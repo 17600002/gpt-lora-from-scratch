@@ -1,8 +1,8 @@
-# gpt-lora-from-scratch
+# GPT from Scratch + LoRA
 
 A from-scratch implementation of a GPT plus LoRA fine-tuning, built as a learning roadmap with heavily annotated notebooks.
 
-## What's inside
+## What's Inside
 
 - `notebooks/` — step-by-step walkthrough (start at `01`)
 - `bigram.py` — baseline bigram model
@@ -22,11 +22,11 @@ Check local copyright law before downloading.
 
 ## Usage
 
-\`\`\`bash
+```bash
 python gpt.py              # train the base GPT
-python gpt_lora.py     # fine-tune with LoRA
-python sample.py       # generate and compare
-\`\`\`
+python gpt_lora.py         # fine-tune with LoRA
+python sample.py           # generate and compare
+```
 
 ## Acknowledgements
 
