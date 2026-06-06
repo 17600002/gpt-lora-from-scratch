@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+
+# Model weights — ignore big ones, but FORCE-include tiny demo + adapter
+checkpoints/*
+!checkpoints/.gitkeep
+# !checkpoints/testmain_best.pt           # 2.6MB demo GPT
+# !checkpoints/lora_testmain_best.pt      # 258KB demo adapter
+# !checkpoints/lorat1_gpt_shakes_best.pt  # 1MB adapter
+#!checkpoints/lora2_gpt_shakes_best.pt  # 2MB adapter
+#gpt_shakes_best.pt (133MB) ignored, too big
+
+# Logs (keep the folder, ignore contents)
+logs/*
+!logs/.gitkeep
+
+
+# Private - never push
+refs/
+tests/
+backup/
+preps/
+
+# Training data
+data/*.txt
+
+# Copyrighted / private data
+data/everest.txt
+data/*.bin
