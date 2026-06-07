@@ -41,7 +41,7 @@ Builds the model step by step. Detailed dual notation comparing math and tensor 
 | Notebook | Content |
 |---|---|
 | 01_bigram-dev | Bigram LM |
-| 02_attention_math| bag of words, single-head self-attention in detail|
+| 02_attention_math| bag of words, :star: single-head self-attention in detail|
 | sample | compare output of the trained pure GPT and when added LoRA |
 
 In progress:
@@ -72,7 +72,7 @@ python sample.py           # generate and compare
 
 ## Data
 
-Training texts are not included. Download links are also in the notebooks:
+Training texts are not included. Download links also in (upcoming) notebooks:
 
 - GPT corpus: Tiny Shakespeare
 - LoRA corpus: A Study in Scarlet (Project Gutenberg)
