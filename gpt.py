@@ -34,7 +34,7 @@ def get_device():
     elif torch.cuda.is_available():
         return 'cuda'
     else:
-        return "cpu"
+        return 'cpu'
     
 
 # ----------------------------
