@@ -172,7 +172,8 @@ class GPTLanguageModel(nn.Module):
             loss = F.cross_entropy(logits, targets)
         
         return logits, loss
-
+    
+    @torch.no_grad()
     def generate(self, idx, max_new_tokens):         # (B, T) -> (B, T+1)
 
         for _ in range(max_new_tokens):
